@@ -1,16 +1,16 @@
-# Game Replay Experience
+# Pop_OS Game Replay Experience
 
-The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. That is, when you press the save replay button, it moves the clip saved into a folder with the name of the game. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown.
+The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. That is, when you press the save replay button, it moves the clip saved into a folder with the name of the game. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown. The install is (unfortunately) a very manual process, but could possibly be automated if there is enough support for it.
 
 See a video of this script in action:
 
 
 
-This assumes you are using Steam to play your games. It uses Steam's API to grab the name of the game you are playing.
+This entire project assumes you are using Steam to play your games. It uses Steam's API to grab the name of the game you are playing. If you aren't playing a Steam game, it will default to the "Desktop" folder.
 
 # Installation
 
-I haven't tested this from start to finish (11/27), but will make changes if anyone has trouble (please open an issue).
+I've tested these steps and ammended them where possible, but there are likely still problems. Please open an issue if it does not work for you.
 As a general overview: OBS needs to be setup to start the replay buffer on boot, system-wide hotkeys need to be setup so you can save a replay, and you need to generate an API key from Steam.
 
 1. Install dependencies (press `win+t` to open terminal)
