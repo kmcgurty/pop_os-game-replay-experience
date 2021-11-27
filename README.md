@@ -59,6 +59,8 @@ snap install obs-cli
 
 <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143703123-dbb3edfd-759a-4c22-b60e-1ad277fbeb41.png" width="350" ></img></p>
 
+12. Run `bash ~/start-obs.sh` to restart OBS. You can also accomplish this by restarting your machine.
+
 # Usage
 
 Pretty simple: press the hotkey after you launch a game, it should create a folder with the name of a game, and move the most recent game clip into that folder.
