@@ -6,7 +6,7 @@ steamID="" # get from https://www.steamidfinder.com/ (input your steam username 
 
 #########################################
 
-obs-cli SaveReplayBuffer > /dev/null 2>&1
+obs-cli SaveReplayBuffer
 
 sleep 1
 
@@ -21,7 +21,9 @@ fi
 
 saveLocation=$saveDir/$gameName
 
-mkdir "$saveLocation" > /dev/null 2>&1
+echo "Save location: "$saveLocation
+
+mkdir "$saveLocation"
 
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
