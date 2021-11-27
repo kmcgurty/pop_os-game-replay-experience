@@ -1,6 +1,8 @@
 # Game Replay Experience
 
-See a video of this script in action. The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. That is, when you press the save replay button, it moves the clip saved into a folder with the name of the game. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown.
+The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. That is, when you press the save replay button, it moves the clip saved into a folder with the name of the game. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown.
+
+See a video of this script in action:
 
 
 
@@ -27,7 +29,7 @@ snap install obs-cli
 
 2. Setup OBS scene to capture your screen and sound (see [here](https://www.alphr.com/record-screen-obs/))
 
-3. In OBS, go to File > Settings > Output > under recording, set the folder you want the replays to save to, **set Recording Format to mp4**, and `Encoder to Hardware (NVENC)`
+3. In OBS, go to File > Settings > Output > under recording, set the folder you want the replays to save to, **set Recording Format to mp4**, `Encoder to Hardware (NVENC)`, and check `Enable Replay Buffer` (**most important!**)
 
 <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143692788-82a12934-8e5f-445d-a081-f309f6765369.png" width="500" ></img></p>
 
