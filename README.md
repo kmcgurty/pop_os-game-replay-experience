@@ -33,6 +33,10 @@ snap install obs-cli
 
 <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143692788-82a12934-8e5f-445d-a081-f309f6765369.png" width="500" ></img></p>
 
+3.1 Also go to General inside OBS and check `Minimize to system tray when started` and `Always minimize to system tray instead of task bar`
+
+<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143718838-a681bc4f-e134-4831-a272-6a7f1b229b1b.png" width="650" ></img></p>
+
 4. Clone this repo with
 `git clone https://github.com/kmcgurty/pop_os-game-replay-experience.git`
 
