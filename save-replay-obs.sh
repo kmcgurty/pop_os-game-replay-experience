@@ -1,6 +1,6 @@
 #!/bin/bash
 
-saveDir="" # match to the setting inside OBS (step 3 of the install guide)
+saveDir="" # match to the setting inside OBS (step 4 of the install guide)
 apiKey=""  # get from https://steamcommunity.com/dev/apikey
 steamID="" # get from https://www.steamidfinder.com/ (input your steam username in the website)
 
@@ -16,7 +16,7 @@ res=$(curl -s $URL)
 gameName=$(jq -r ".response.players[0].gameextrainfo" <<< "${res}")
 
 if [[ "$gameName" == "null" ]]; then
-	gameName="Desktop"
+    gameName="Desktop"
 fi
 
 saveLocation=$saveDir/$gameName
