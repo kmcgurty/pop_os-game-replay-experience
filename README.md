@@ -1,6 +1,6 @@
 # Pop_OS Game Replay Experience
 
-The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. That is, when you press the save replay button, it moves the clip saved into a folder with the name of the game. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown. The install is (unfortunately) a very manual process, but could possibly be automated if there is enough support for it.
+The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. That is, when you press the save replay button, it saves the last x minutes of your game, and moves the clip into a folder with the name of the game. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown. The install is (unfortunately) a very manual process, but could possibly be automated if there is enough support for it.
 
 See a video of this script in action:
 
