@@ -39,7 +39,7 @@ snap install obs-cli
 
 6. Go to https://steamcommunity.com/dev/apikey to register an API key with Steam
 
-7. Go to https://www.steamidfinder.com/ to get your Steam ID number
+7. Go to https://www.steamidfinder.com/ to get your Steam ID number (you want `steamID64 (Dec)`)
 
 8. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details
 
