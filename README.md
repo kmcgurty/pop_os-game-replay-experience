@@ -1,6 +1,6 @@
 # Game Replay Experience
 
-See a video of this script in action. The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown.
+See a video of this script in action. The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. That is, when you press the save replay button, it moves the clip saved into a folder with the name of the game. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown.
 
 
 
