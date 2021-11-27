@@ -6,11 +6,15 @@ See a video of this script in action:
 
 
 
+https://user-images.githubusercontent.com/5951498/143722612-4c12a013-3b75-43bc-894f-34645b38d0b3.mp4
+
+
+
 This entire project assumes you are using Steam to play your games. It uses Steam's API to grab the name of the game you are playing. If you aren't playing a Steam game, it will default to the "Desktop" folder.
 
 # Installation
 
-I've tested these steps and ammended them where possible, but there are likely still problems. Please open an issue if it does not work for you.
+I've tested these steps and amended them where possible, but there are likely still problems. Please open an issue if it does not work for you.
 As a general overview: OBS needs to be setup to start the replay buffer on boot, system-wide hotkeys need to be setup so you can save a replay, and you need to generate an API key from Steam.
 
 1. Install dependencies (press `win+t` to open terminal)
