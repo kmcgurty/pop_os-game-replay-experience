@@ -41,7 +41,7 @@ snap install obs-cli
 
 7. Go to https://www.steamidfinder.com/ to get your Steam ID number (you want `steamID64 (Dec)`)
 
-8. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details
+8. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details > press `ctrl+o` > press enter when finished
 
 <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143693149-eb65d60c-0c65-4890-8dbe-1fcb6b1cd329.png" width="650" ></img></p>
 
