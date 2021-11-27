@@ -10,7 +10,7 @@ obs-cli SaveReplayBuffer > /dev/null 2>&1
 
 sleep 1
 
-URL="https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=""$apiKey""&steamids=""$apiKey"
+URL="https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=""$apiKey""&steamids=""$steamID"
 res=$(curl -s $URL)
 
 gameName=$(jq -r ".response.players[0].gameextrainfo" <<< "${res}")
