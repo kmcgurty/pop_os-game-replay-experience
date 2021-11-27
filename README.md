@@ -1,6 +1,6 @@
 # Game Replay Experience
 
-See a video of this script in action. The goal of this project is to mimic nVidia's Shadowplay "Instant Replay" feature on Pop_OS. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown.
+See a video of this script in action. The goal of this project is to mimic Nvidia's Shadowplay "Instant Replay" feature on Pop_OS. This will work with other distributions that support OBS, but the hotkey and startup steps will breakdown.
 
 
 
@@ -29,6 +29,8 @@ snap install obs-cli
 
 3. In OBS, go to File > Settings > Output > under recording, set the folder you want the replays to save to, **set Recording Format to mp4**, and `Encoder to Hardware (NVENC)`
 
+<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143692788-82a12934-8e5f-445d-a081-f309f6765369.png" width="500" ></img></p>
+
 4. Clone this repo with
 `git clone https://github.com/kmcgurty/pop_os-game-replay-experience.git`
 
@@ -41,6 +43,8 @@ snap install obs-cli
 
 7. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details
 
+<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143693149-eb65d60c-0c65-4890-8dbe-1fcb6b1cd329.png" width="500" ></img></p>
+
 6. In Pop_OS, go to `Startup Applications` > click Add > fill out info match the image below. The important part is `bash ~/start-obs.sh` as the command. You can verify that this command actually works by entering the command into a terminal window.
 
 7. In Pop_OS, go to `Settings` > Keyboard > Customize Shortcuts > Custom Shortcuts > Add Shortcut > match image below (important part is `bash ~/save-replay-obs.sh`, same deal with step #6)
@@ -49,4 +53,4 @@ snap install obs-cli
 
 # Usage
 
-Pretty simple, just press the hotkey after you launch a game, and it should create a folder with the name of a game, and move the most recent game clip into that folder.
+Pretty simple: press the hotkey after you launch a game, it should create a folder with the name of a game, and move the most recent game clip into that folder.
