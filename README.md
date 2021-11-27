@@ -41,10 +41,10 @@ snap install obs-cli
 
     2. Back out of the settings > click Tools > click Websockets Server Settings > uncheck `Enable authentication`. You can enable authentication later, but the script is setup to not take a password and will have to be edited.
 
-5. Clone this repo and move shell scripts with
+5. Clone this repo and move shell scripts to the home directory with
 
 ```console
-cd ~/ && git clone https://github.com/kmcgurty/pop_os-game-replay-experience.git && cd pop_os-game-replay-experience && mv start-obs.sh save-replay-obs.sh ~/
+cd ~/ && git clone https://github.com/kmcgurty/pop_os-game-replay-experience.git && cd pop_os-game-replay-experience && mv start-obs.sh save-replay-obs.sh ~/ && cd .. && rm -rf pop_os-game-replay-experience/
 ```
 
 6. Go to https://steamcommunity.com/dev/apikey to register an API key with Steam
