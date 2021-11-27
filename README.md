@@ -41,15 +41,21 @@ snap install obs-cli
 
 7. Go to https://www.steamidfinder.com/ to get your Steam ID number
 
-7. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details
+8. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details
 
-<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143693149-eb65d60c-0c65-4890-8dbe-1fcb6b1cd329.png" width="500" ></img></p>
+<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143693149-eb65d60c-0c65-4890-8dbe-1fcb6b1cd329.png" width="650" ></img></p>
 
-6. In Pop_OS, go to `Startup Applications` > click Add > fill out info match the image below. The important part is `bash ~/start-obs.sh` as the command. You can verify that this command actually works by entering the command into a terminal window.
+9. In Pop_OS, go to `Startup Applications` > click `Add` > fill out info match the image below. The important part is `bash ~/start-obs.sh` as the command. You can verify that this command actually works by entering the command into a terminal window.
 
-7. In Pop_OS, go to `Settings` > Keyboard > Customize Shortcuts > Custom Shortcuts > Add Shortcut > match image below (important part is `bash ~/save-replay-obs.sh`, same deal with step #6)
+<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143700682-7c115d9b-fdd0-4ac8-a5a8-bf4dc4485429.png" width="350" ></img></p>
 
-8. Optional: You can also start recording on demand by adding `obs-cli StartStopRecording`
+10. In Pop_OS, go to `Settings` > `Keyboard` > `Customize Shortcuts` > `Custom Shortcuts` > `Add Shortcut` > match image below (important part is `bash ~/save-replay-obs.sh`, same deal with step #6)
+
+<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143699298-a7972124-ed0a-4ea6-a606-ab5521fd1a95.png" width="350" ></img></p>
+
+11. Optional: You can also start recording on demand by adding `obs-cli StartStopRecording`
+
+<p align="center"><image src="https://user-images.githubusercontent.com/5951498/143703123-dbb3edfd-759a-4c22-b60e-1ad277fbeb41.png" width="350" ></img></p>
 
 # Usage
 
