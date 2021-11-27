@@ -47,29 +47,29 @@ snap install obs-cli
 cd ~/ && git clone https://github.com/kmcgurty/pop_os-game-replay-experience.git && cd pop_os-game-replay-experience && mv start-obs.sh save-replay-obs.sh ~/
 ```
 
-7. Go to https://steamcommunity.com/dev/apikey to register an API key with Steam
+6. Go to https://steamcommunity.com/dev/apikey to register an API key with Steam
 
-8. Go to https://www.steamidfinder.com/ to get your Steam ID number (you want `steamID64 (Dec)`)
+7. Go to https://www.steamidfinder.com/ to get your Steam ID number (you want `steamID64 (Dec)`)
 
-9. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details > press `ctrl+o` > press enter when finished
+8. Edit the script with `nano ~/save-replay-obs.sh` > fill in the script to match the above details > press `ctrl+o` > press enter when finished
 
     <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143693149-eb65d60c-0c65-4890-8dbe-1fcb6b1cd329.png" width="650" ></img></p>
 
-10. Run `whoami` in terminal to see your username. You need it in the next steps.
+9. Run `whoami` in terminal to see your username. You need it in the next steps.
 
-11. In Pop_OS, go to `Startup Applications` > click `Add` > fill out info match the image below. The important part is `bash /home/<username>/start-obs.sh` as the command. You can verify that this command actually works by entering the command into a terminal window.
+10. In Pop_OS, go to `Startup Applications` > click `Add` > fill out info match the image below. The important part is `bash /home/<username>/start-obs.sh` as the command. You can verify that this command actually works by entering the command into a terminal window.
 
     <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143720138-377bda27-152c-4e0d-b64c-63d7c0956036.png" width="350" ></img></p>
 
-12. In Pop_OS, go to `Settings` > `Keyboard` > `Customize Shortcuts` > `Custom Shortcuts` > `Add Shortcut` > match image below (important part is `bash /home/<username>/save-replay-obs.sh`, same deal with step #6)
+11. In Pop_OS, go to `Settings` > `Keyboard` > `Customize Shortcuts` > `Custom Shortcuts` > `Add Shortcut` > match image below (important part is `bash /home/<username>/save-replay-obs.sh`, same deal with step #6)
 
     <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143720123-638b865f-954d-4f18-93c8-da1e887f0a13.png" width="350" ></img></p>
 
-13. Optional: You can also start recording on demand by adding `obs-cli StartStopRecording`
+12. Optional: You can also start recording on demand by adding `obs-cli StartStopRecording`
 
     <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143703123-dbb3edfd-759a-4c22-b60e-1ad277fbeb41.png" width="350" ></img></p>
 
-14. Run `bash ~/start-obs.sh` to restart OBS. You can also accomplish this by restarting your machine.
+13. Run `bash ~/start-obs.sh` to restart OBS. You can also accomplish this by restarting your machine.
 
 # Usage
 
