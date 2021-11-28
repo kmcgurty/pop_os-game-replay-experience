@@ -65,7 +65,7 @@ cd ~/ && git clone https://github.com/kmcgurty/pop_os-game-replay-experience.git
 
     <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143720138-377bda27-152c-4e0d-b64c-63d7c0956036.png" width="350" ></img></p>
 
-11. In Pop_OS, go to `Settings` > `Keyboard` > `Customize Shortcuts` > `Custom Shortcuts` > `Add Shortcut` > match image below (important part is `bash /home/<username>/save-replay-obs.sh`, same deal with step #6)
+11. In Pop_OS, go to `Settings` > `Keyboard` > `Customize Shortcuts` > `Custom Shortcuts` > `Add Shortcut` > match image below (important part is `bash /home/<username>/save-replay-obs.sh`, same deal with step #10)
 
     <p align="center"><image src="https://user-images.githubusercontent.com/5951498/143720123-638b865f-954d-4f18-93c8-da1e887f0a13.png" width="350" ></img></p>
 
